@@ -251,6 +251,8 @@ public class Simulator extends JPanel implements ActionListener{
 		int type = 1;
 		if (y >= 125 && y < 190 && (x <=50 || x >= 1075) )  {//Application layer
 			type = 1;
+		} else if (x<1110 && x>165) {//sine wave
+			type = 6;
 		} else if (y >= 190 && y < 215 ) {//Transport layer
 			type = 2;
 		} else if (y >= 215 && y < 240) {//Network layer
@@ -259,9 +261,7 @@ public class Simulator extends JPanel implements ActionListener{
 			type = 4;
 		} else if (y >= 265 && y < 290) {//Physical layer
 			type = 5;
-		} else if (x<1110 && x>165 || y > 290) {//sine wave
-			type = 6;
-		} 
+		}  
 //		else {
 //			type = 6;
 //		}
