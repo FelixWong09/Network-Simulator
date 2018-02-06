@@ -7,7 +7,7 @@ A animated simulator illustrate how data be transmitted on a TCP/IP network. Det
 ## Layer Function
 
 * Headers are added at each layers.
-* Data is tranformed into frame with CRC checksum in Datalink layer.
+* Data is tranformed into frame with CRC checksum for error detection in Datalink layer.
 * Frames are tranformed into binary sequence in physical layer and be present with analog wave.
 
 ## Routing
