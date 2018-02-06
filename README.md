@@ -1,6 +1,6 @@
 # Network-Simulator
 
-A animated simulator illustrate how data be transmitted on a TCP/IP network. Details button show different forms of messages as they are transmitted from one end to the other through all layers.
+A animated simulator illustrate how data be transmitted in a TCP/IP network. Details button show different forms of messages as they are transmitted from one end to the other through all layers.
 
 ![Main Interface](ReadmeImage/start.png)
 
